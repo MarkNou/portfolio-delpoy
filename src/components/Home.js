@@ -11,7 +11,7 @@ const Home = () => {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row md:pl-10">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row md:pl-10 ">
         <div className="flex flex-col justify-center h-full">
         <h2 class='neon4'>Hi, I'm Mark </h2>
           <h2 class='neon'>Full Stack Developer </h2>
@@ -33,8 +33,8 @@ const Home = () => {
           </div>
         </div>
 
-          <div className='md:pl-10'> 
-            <img className=' rounded-full w-50 h-50 object-cover py-10'
+          <div className='md:pl-10 '> 
+            <img className=' rounded-full w-50 h-50 object-cover py-10 '
              src={Hero} 
              alt='my profile'/> 
           </div>

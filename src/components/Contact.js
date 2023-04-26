@@ -15,16 +15,16 @@ const Contact = () => {
                     <input type="text"
                      name="name" 
                      placeholder="Enter your name" 
-                     className='p-2 bg-transparent border-2 text-white focus:outline-none' />
+                     className='p-2 bg-transparent border-2 text-white focus:outline-none shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]' />
                     <input type="text" 
                     name="email" 
                     placeholder="Enter your email" 
-                    className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none' />
+                    className='my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]' />
                     <textarea name="message"
                      rows="10" 
                      placeholder="Enter your message"
-                     className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"></textarea>
-                    <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300">Lets Talk</button>
+                     className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] "></textarea>
+                    <button className="text-white bg-gradient-to-b from-cyan-500 to-blue-500 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-300 shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">Lets Talk</button>
                 </form>
             </div>
         </div>

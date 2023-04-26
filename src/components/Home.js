@@ -4,6 +4,7 @@ import {MdOutlineKeyboardDoubleArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
 
+
 const Home = () => {
   return (
     <div
@@ -32,8 +33,10 @@ const Home = () => {
           </div>
         </div>
 
-          <div>
-            <img className=' rounded-full w-50 h-50 object-cover py-10' src={Hero} alt='my profile'/> 
+          <div className='md:pl-10'> 
+            <img className=' rounded-full w-50 h-50 object-cover py-10'
+             src={Hero} 
+             alt='my profile'/> 
           </div>
         </div>
       </div>

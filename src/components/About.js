@@ -9,11 +9,11 @@ const About = () => {
                 <p className='text-4xl fontbold inline border-b-4 border-gray-500'>About</p>
             </div>
             <p className='text-xl mt-20 '>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+            Hello! My name is Mark Nou and I am a developer with a passion for art and graphic design. Prior to my career in development, I worked in operation management in the logistics industry. While I enjoyed my work, I felt a deep desire to pursue my creative side and use my problem-solving skills in a more hands-on way. This led me to make the switch to development, where I have found a perfect balance between creativity and analytical thinking. I love being able to bring my ideas to life through code and design, and I am constantly seeking new challenges and opportunities to grow. 
              </p>
              <br />
              <p className='text-xl'> 
-             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+             I primarily work with React, Tailwind, HTML, CSS, Ruby on Rails, Ruby, and PostgreSQL, and am always excited to learn new technologies and expand my skillset.
 
              </p>
         </div>

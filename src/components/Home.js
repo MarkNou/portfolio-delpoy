@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroImage from '../assets/heroImage.png'
+import Hero from '../assets/hero.jpg'
 import {MdOutlineKeyboardDoubleArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
@@ -16,9 +17,7 @@ const Home = () => {
           <h2 class='neon'>Full Stack Developer </h2>
           <p className="text-gray-500 py-4 max-w-md">
 
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
+          I'm an aspiring full-stack developer based out of San Diego, Ca. I've always had a passion for graphic design and art. That combined with the ability to combine that in applications is what drives me in this field. Feel free to browse my portfolio!
           </p>
           <h2 class='neon3'>Lets create. </h2>
 
@@ -35,7 +34,7 @@ const Home = () => {
         </div>
 
           <div>
-            <img className='filter  rounded-full mx-auto  w-1/2 md:w-full drop-shadow-md' src={HeroImage} alt='my profile'/> 
+            <img className='rounded-lg w-50 h-50 object-cover py-10' src={Hero} alt='my profile'/> 
           </div>
         </div>
       </div>

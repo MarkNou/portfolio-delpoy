@@ -35,14 +35,14 @@ const Portfolio = () => {
 
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='neon1 '> Portfolio</p>
-                <p className='py-6'>Check out some of my work right here</p>
+                <p className='neon1 text-center'> Portfolio</p>
+                <p className='py-6 text-center'>Check out some of the work Ive done</p>
             </div>
             
-            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
+            <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 '>
             {
                 portfolios.map(({id, src, url1, url2, title}) => (
-                    <div key={id} className='shadow-md shadow-gray-600 rounded-lg '>
+                    <div key={id} className='shadow-md shadow-purple-500 rounded-lg '>
                         <p className='text-center'>{title}</p>
                     <img src={src} alt='' className='rounded-md duration-200 hover:scale-105' />
                     <div className='flex items-center justify-center'> 

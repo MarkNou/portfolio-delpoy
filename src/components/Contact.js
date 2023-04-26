@@ -5,8 +5,8 @@ const Contact = () => {
     <div name="contact" className='w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white'>
         <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full'>
             <div className='pb-8'>
-                <p className='neon1'>Contact</p>
-                <p className='py-6'>Submit the form below to get in touch with me</p>
+                <p className='neon1 text-center'>Contact</p>
+                <p className='py-6 text-center'>Submit the form below to get in touch with me</p>
             </div>
             <div className='flex justify-center items-center'>
                 <form action="https://getform.io/f/5b886b03-27f3-4eca-8f57-20f22242602c" 

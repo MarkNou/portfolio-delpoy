@@ -6,9 +6,9 @@ const About = () => {
         <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
 
             <div className='pb-8'>
-                <p className='neon1'>About</p>
+                <p className='neon1 text-center'>About</p>
             </div>
-            <p className='text-xl mt-20 '>
+            <p className='text-xl mt-20'>
             Hello! My name is Mark Nou and I am a developer with a passion for art and graphic design. Prior to my career in development, I worked in operation management in the logistics industry. While I enjoyed my work, I felt a deep desire to pursue my creative side and use my problem-solving skills in a more hands-on way. This led me to make the switch to development, where I have found a perfect balance between creativity and analytical thinking. I love being able to bring my ideas to life through code and design, and I am constantly seeking new challenges and opportunities to grow. 
              </p>
              <br />

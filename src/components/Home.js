@@ -11,13 +11,13 @@ const Home = () => {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row md:pl-10">
         <div className="flex flex-col justify-center h-full">
         <h2 class='neon4'>Hi, I'm Mark </h2>
           <h2 class='neon'>Full Stack Developer </h2>
-          <p className="text-gray-500 py-4 max-w-md">
+          <p className="text-white py-4 max-w-md">
 
-          I'm an aspiring full-stack developer based out of San Diego, Ca. I've always had a passion for graphic design and art. The ability to combine that into  applications is what drives me in this field.
+          I'm an aspiring full-stack developer based out of San Diego, Ca. I've always had a passion for graphic design and art. The ability to combine that into functioning applications is what drives and inspires me.
           </p>
           <h2 class='neon3'>Lets create. </h2>
 

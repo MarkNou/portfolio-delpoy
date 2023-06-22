@@ -1,7 +1,7 @@
 import React from 'react'
 import concertgo from '../assets/portfolio/concertgo.png'
 import hightension from '../assets/portfolio/hightension.png'
-import treasurehunt from '../assets/portfolio/treasurehunt.png'
+import flatfinderpro from '../assets/portfolio/flatfinderpro.png'
 
 const Portfolio = () => {
 
@@ -24,11 +24,11 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: treasurehunt,
-            url1: 'https://celadon-meringue-36b01c.netlify.app/',
-            url2: 'https://github.com/MarkNou/treasure-hunt-MarkNou',
+            src: flatfinderpro,
+            url1: 'https://flatfinderpro.netlify.app/',
+            url2: 'https://github.com/MarkNou/flatfinderpro',
             title: 'Treasure Hunt',
-            description: 'Treasure Hunt is a game that allows users to search for a treasure among bombs. Written in React.'
+            description: 'Flat Finder Pro is a fullstack application for finding apartments. Written in React, Ruby on Rails, and PostgreSQL.'
         }
         
     ]

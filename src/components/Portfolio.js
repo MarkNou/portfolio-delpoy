@@ -1,7 +1,7 @@
 import React from 'react'
 import concertgo from '../assets/portfolio/concertgo1.png'
 import hightension from '../assets/portfolio/hightension1.png'
-import flatfinderpro from '../assets/portfolio/flatfinderpro1.png'
+import flatfinder from '../assets/portfolio/flatfinderpro1.png'
 
 const Portfolio = () => {
 
@@ -24,7 +24,7 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: flatfinderpro,
+            src: flatfinder,
             url1: 'https://flatfinderpro.netlify.app/',
             url2: 'https://github.com/MarkNou/flatfinderpro',
             title: 'Flat Finder Pro',

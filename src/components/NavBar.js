@@ -27,7 +27,7 @@ const NavBar = () => {
     }
   ]
   return (
-    <div className=" z-50 flex justify-between items-center w-full h-20 px-4 text-white fixed bg-black shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
+    <div className=" z-50 flex justify-between items-center w-full px-4 text-white fixed bg-black shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)]">
       <div>
         
         <h1 class='neon10'>MN</h1>

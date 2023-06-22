@@ -1,7 +1,7 @@
 import React from 'react'
 import concertgo from '../assets/portfolio/concertgo1.png'
 import hightension from '../assets/portfolio/hightension1.png'
-import flatfinderpro from '../assets/portfolio/flatfinderpro1.png'
+import flatfinder from '../assets/portfolio/flatfinderpro1.png'
 
 const Portfolio = () => {
 
@@ -24,10 +24,10 @@ const Portfolio = () => {
         },
         {
             id: 3,
-            src: flatfinderpro,
+            src: flatfinder,
             url1: 'https://flatfinderpro.netlify.app/',
             url2: 'https://github.com/MarkNou/flatfinderpro',
-            title: 'Treasure Hunt',
+            title: 'Flat Finder Pro',
             description: 'Flat Finder Pro is a fullstack application for finding apartments. Written in React, Ruby on Rails, and PostgreSQL.'
         }
         
@@ -46,8 +46,8 @@ const Portfolio = () => {
             {
                 portfolios.map(({id, src, url1, url2, title, description}) => (
                     <div key={id} className='shadow-md shadow-purple-500 rounded-lg '>
-                        <p className='text-center'>{title}</p><br/>
-                        <p className='text-center'>{description}</p>
+                        <p className='text-center text-xl font-bold'>{title}</p><br/>
+                        <p className='text-center pb-3'>{description}</p>
                     <img src={src} alt='' className='rounded-md duration-200 hover:scale-105' />
                     <div className='flex items-center justify-center'> 
                     <button onClick={() => window.open(url1, '_blank')} className='w-1/2 px-6 py-4 m-4 duration-200 hover:scale-105' >Demo</button>

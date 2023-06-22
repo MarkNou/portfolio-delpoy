@@ -19,7 +19,7 @@ const Home = () => {
 
           I'm a full-stack developer based out of San Diego, Ca. I've always had a passion for graphic design and art. The ability to combine that into functioning applications is what drives and inspires me.
           </p>
-          <h2 class='neon3'>Lets create. </h2>
+          
 
           <div>
             <Link to="portfolio" 

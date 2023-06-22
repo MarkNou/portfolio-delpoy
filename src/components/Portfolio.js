@@ -1,7 +1,7 @@
 import React from 'react'
-import concertgo from '../assets/portfolio/concertgo.png'
-import hightension from '../assets/portfolio/hightension.png'
-import flatfinderpro from '../assets/portfolio/flatfinderpro.png'
+import concertgo from '../assets/portfolio/concertgo1.png'
+import hightension from '../assets/portfolio/hightension1.png'
+import flatfinderpro from '../assets/portfolio/flatfinderpro1.png'
 
 const Portfolio = () => {
 

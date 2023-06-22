@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from '../assets/hero.jpg'
+import Hero from '../assets/mkn.jpg'
 import {MdOutlineKeyboardDoubleArrowRight} from 'react-icons/md'
 import {Link} from 'react-scroll'
 
@@ -17,7 +17,7 @@ const Home = () => {
           <h2 class='neon'>Full Stack Developer </h2>
           <p className="text-white py-4 max-w-md">
 
-          I'm an aspiring full-stack developer based out of San Diego, Ca. I've always had a passion for graphic design and art. The ability to combine that into functioning applications is what drives and inspires me.
+          I'm a full-stack developer based out of San Diego, Ca. I've always had a passion for graphic design and art. The ability to combine that into functioning applications is what drives and inspires me.
           </p>
           <h2 class='neon3'>Lets create. </h2>
 

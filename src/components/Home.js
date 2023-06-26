@@ -13,15 +13,15 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row md:pl-10 ">
         <div className="flex flex-col justify-center h-full">
-        <h2 class='neon4'>Hi, I'm Mark </h2>
-          <h2 class='neon'>Full Stack Developer </h2>
+        <h2 className='text-4xl sm:text-7xl font-bold text-white'>Hi, I'm Mark </h2>
+          <h2 className='text-4xl sm:text-7xl font-bold text-gray-500'>Full Stack Developer </h2>
           <p className="text-white py-4 max-w-md">
 
           I'm a full-stack developer based out of San Diego, Ca. I've always had a passion for graphic design and art. The ability to combine that into functioning applications is what drives and inspires me.
           </p>
           
 
-          <div>
+          <div className="flex justify-center">
             <Link to="portfolio" 
             smooth duration={500} 
             className="group text-white shadow-glow-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
@@ -34,7 +34,7 @@ const Home = () => {
         </div>
 
           <div className='md:pl-10 '> 
-            <img className=' rounded-full w-50 h-50 object-cover py-10 '
+            <img className='rounded-2xl mx-auto w-2/3 md:w-full'
              src={Hero} 
              alt='my profile'/> 
           </div>
